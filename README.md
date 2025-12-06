@@ -107,10 +107,11 @@ The current build fetches Shopify data on demand or scheduled intervals, not ful
 
 </br>
 
-### 👩‍💻 Author
-Sakshi Shrivastava
-Full Stack Developer | React | Node.js
-🔗 GitHub: https://github.com/sakshis1904
+### 👩‍💻 Author </br>
+Sakshi Shrivastava </br>
+Full Stack Developer | React | Node.js </br>
+🔗 GitHub: https://github.com/sakshis1904 </br>
 🔗 LinkedIn: https://www.linkedin.com/in/sakshi-shrivastava19/
+
 
 
