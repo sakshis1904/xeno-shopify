@@ -2,6 +2,8 @@
 
 <div align = "centre" >### Live Demo : https://shopify1-wpxc.onrender.com/ </div> 
 
+</br>
+
 This solution demonstrates how I would help enterprise retailers onboard and analyse their Shopify data at scale.
 It supports multiple stores, performs continuous ingestion of customer/order/product data, stores them tenant-isolated in an RDBMS, and visualizes growth metrics through an analytics dashboard.
 
@@ -99,3 +101,11 @@ All tables use tenant_id to keep data isolated per store.
 ### ⚠ Known Limitations / Assumptions
 
 The current build fetches Shopify data on demand or scheduled intervals, not fully real-time unless webhooks are integrated. Large-scale stores with heavy order volumes may require queueing systems or background workers for faster ingestion. The dashboard displays core insights but advanced analytics, segmentation, and role-based access are still not implemented. These features can be added as the project scales into a more production-ready retail intelligence platform.
+
+</br>
+
+### 👩‍💻 Author
+Sakshi Shrivastava
+Full Stack Developer | React | Node.js
+🔗 GitHub: https://github.com/sakshis1904
+🔗 LinkedIn: https://www.linkedin.com/in/sakshi-shrivastava19/
