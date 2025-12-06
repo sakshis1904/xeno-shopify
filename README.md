@@ -17,29 +17,29 @@ Make it production-lean, scalable, and business-driven — not just functional.
  
 ### 🚀 What This System Solves
 
-💠 A retailer should not worry about integration complexity
-💠 Plug-in onboarding → Shopify store gets fully synced securely
-💠 Data stays isolated per tenant → No cross-visibility
+💠 A retailer should not worry about integration complexity </br>
+💠 Plug-in onboarding → Shopify store gets fully synced securely </br>
+💠 Data stays isolated per tenant → No cross-visibility </br>
 💠 Business team can view insights instantly instead of manual exports
 
 </br> 
 
 ### ⚡ Tech Stack
 
-Frontend: React
-Backend: Node.js, Express
-Database: MySQL
-API: REST API
-Authentication: JWT
+Frontend: React </br>
+Backend: Node.js, Express </br>
+Database: MySQL </br>
+API: REST API </br>
+Authentication: JWT </br>
 Deployment : Render
 
 </br> 
 
 ### 🔗 Shopify Integration
 
-Shopify provides REST APIs and Webhooks that allow external applications to pull or receive store data like products, customers and orders. By integrating with Shopify, our system connects using API keys and fetches data for each store (tenant). This data is then stored in our database and converted into insights on the dashboard.
+Shopify provides REST APIs and Webhooks that allow external applications to pull or receive store data like products, customers and orders. By integrating with Shopify, our system connects using API keys and fetches data for each store (tenant). This data is then stored in our database and converted into insights on the dashboard. </br>
 
-In simple terms:
+In simple terms: </br>
 Shopify Store → API/Webhook → Our Backend → Database → Dashboard Insights
 
 </br> 
@@ -64,28 +64,28 @@ Shopify Store → API/Webhook → Our Backend → Database → Dashboard Insight
 
 ### 🛠 Setup Instructions
 
-1. Clone the repository
-2. Navigate to backend and install dependencies (npm install)
-3. Navigate to frontend and install dependencies (npm install)
-4. Create a .env file and add:
-     - Shopify API Key
-     - Shopify Secret
-     - MySQL connection string
-5. Start the MySQL server and create the required database
-6. Run the backend server (npm start)
-7. Run the frontend (npm run dev)
+1. Clone the repository </br>
+2. Navigate to backend and install dependencies (npm install) </br>
+3. Navigate to frontend and install dependencies (npm install) </br>
+4. Create a .env file and add: </br>
+     - Shopify API Key </br>
+     - Shopify Secret </br>
+     - MySQL connection string </br>
+5. Start the MySQL server and create the required database </br>
+6. Run the backend server (npm start) </br>
+7. Run the frontend (npm run dev) </br>
 8. Connect your Shopify store → initiate sync → data will start ingesting
 
 </br> 
 
 ### 🏗 Architecture Diagram 
 
-The system begins with a Shopify store, where data such as products, orders, and customers exists.
-Our backend connects to Shopify using API credentials or webhooks and pulls that data into the application.
-Once data is fetched, it is stored inside a MySQL database, where each tenant’s records are saved separately to maintain isolation and security.
-The frontend dashboard (built using React) reads this stored data and displays it as insights, charts, and metrics for analysis.
+* The system begins with a Shopify store, where data such as products, orders, and customers exists.
+* Our backend connects to Shopify using API credentials or webhooks and pulls that data into the application.
+* Once data is fetched, it is stored inside a MySQL database, where each tenant’s records are saved separately to maintain isolation and security.
+* The frontend dashboard (built using React) reads this stored data and displays it as insights, charts, and metrics for analysis.
 
-So the flow goes like this:
+So the flow goes like this:</br>
 Shopify Store → Backend Ingestion → MySQL Database → React Dashboard / Insights UI
 
 </br> 
@@ -112,6 +112,7 @@ Sakshi Shrivastava </br>
 Full Stack Developer | React | Node.js </br>
 🔗 GitHub: https://github.com/sakshis1904 </br>
 🔗 LinkedIn: https://www.linkedin.com/in/sakshi-shrivastava19/
+
 
 
 
