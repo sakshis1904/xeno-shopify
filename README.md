@@ -1,6 +1,9 @@
-### 🛍️ Shopify 
+<div align="center">
 
-<div align = "centre" > Live Demo : https://shopify1-wpxc.onrender.com/ </div> 
+### 🛍 Shopify  
+**Live Demo:** https://shopify1-wpxc.onrender.com/  
+
+</div>
 
 </br>
 
@@ -109,4 +112,5 @@ Sakshi Shrivastava
 Full Stack Developer | React | Node.js
 🔗 GitHub: https://github.com/sakshis1904
 🔗 LinkedIn: https://www.linkedin.com/in/sakshi-shrivastava19/
+
 
